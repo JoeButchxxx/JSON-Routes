@@ -1,8 +1,8 @@
-# CPNT - 262 - A4 - Joseph Butcher
-## JSON gallery endpoint with fetch
+# CPNT - 262 - A5 - Joseph Butcher
+## JSON Routes with Heroku and MongoDB Atlas
 
 ### GitHub Repo & Pages
-- GitHub Repo Link https://github.com/JoeButchxxx/cpnt-262-a4
+- GitHub Repo Link 
 - Heroku Link https://josephbutcher-cpnt-262-a4.herokuapp.com/
 
 ### Comments and Take Aways
