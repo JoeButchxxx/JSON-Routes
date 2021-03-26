@@ -3,7 +3,7 @@
 
 ### GitHub Repo & Pages
 - GitHub Repo Link 
-- Heroku Link https://josephbutcher-cpnt-262-a4.herokuapp.com/
+- Heroku Link 
 
 ### Comments and Take Aways
 This assignment was challenging but also enjoyable. I struggled to grasp the fetch and route, but i re read a bunch of notes and finally got some basic html to show up. A few more hours of debugging and realising i had my path directories a little messed up things start working.
@@ -54,4 +54,4 @@ Bianca Ackermann-https://unsplash.com/@biancablah
 [11]-https://unsplash.com/photos/_LOj4-FRFJ4 - 
 Bianca Berg-https://unsplash.com/@biancaberg
 
-# cpnt-262-a5
+

@@ -1,5 +1,5 @@
 const express = require('express')
-const imageObject = require('../../data/gallery')
+const imageObject = require('../../seeds/gallery')
 
 const router = express.Router()
 router.get('/gallery', (request, response) => {
