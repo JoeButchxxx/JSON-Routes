@@ -1,6 +1,10 @@
+
 const express = require('express')
+
+const imageObject = require('../seeds/gallery')
+
 const router = express.Router()
-const imageObject = require('../../seeds/gallery')
+
 router.get('/gallery', (request, response) => {
 
   response.json(imageObject)

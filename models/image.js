@@ -4,13 +4,12 @@ const imageSchema = new mongoose.Schema({
   id: Number,
   title: String,
   description: String,
-  width: Number,
   height: Number,
+  width: Number,
   pathURL: String,
   linkURL: String,
   credit: String,
-  creditLink: String,
-  alt: String,
+  creditLink: String
 });
 
-module.exports = mongoose.model('image', imageSchema);
+module.exports = mongoose.model('Image', imageSchema);
