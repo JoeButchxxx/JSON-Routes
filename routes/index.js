@@ -3,7 +3,7 @@ const config = require('../config');
 const router = express.Router();
 const apiRoute = require('./api/v0');
 const dayJS = require('dayjs');
-const imageObject = require('../models/image.js')
+const imageObject = require('./models/image.js')
 
 // **Router**
 router.use((request, response, next) => {
