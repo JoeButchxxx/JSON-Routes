@@ -1,12 +1,12 @@
-const mongoose = require('./connection.js');
+const mongoose = require('./_connection.js');
 
 //Import seed data
 const imageSeed = require('./seeds/gallery.js');
 
 //Define model
-const imageObject = require('./models/image.js');
+const gallery = require('./models/image.js');
 
-imageObject.insertMany(imageSeed, function (error, image) {
+gallery.insertMany(imageSeed, function (error, image) {
   console.log('Data import completed');
   mongoose.connection.close();
 });

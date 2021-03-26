@@ -4,6 +4,8 @@ const router = express.Router();
 const apiRoute = require('./api/v0');
 const dayJS = require('dayjs');
 const imageObject = require('../models/image.js')
+
+// **Router**
 router.use((request, response, next) => {
   response.locals = config
   next()

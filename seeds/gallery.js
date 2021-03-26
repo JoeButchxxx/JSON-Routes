@@ -1,4 +1,4 @@
-const imageObject = [
+module.exports = [
   {
     id: 0,
     title: 'Smoking Aces',
@@ -133,4 +133,3 @@ const imageObject = [
     creditURL: "https://unsplash.com/@biancaberg",
   }
 ];
-module.exports = imageObject;
