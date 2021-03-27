@@ -17,6 +17,7 @@ What A Week it has been. Assignment five personally has been the toughest one so
 This week you have also taught me more than just back end javascript and i am very thankful for that Tony.
 
 ### Sources & Credit
+Vitaly & Ashlyn helped me debug my single image being generated and pointed me in the right directed with error handling!! MVP
 
 [0]-https://unsplash.com/photos/IBz0Tz0TRUs - 
 Aman Upadhyay-https://unsplash.com/@iaman_upadhyay
