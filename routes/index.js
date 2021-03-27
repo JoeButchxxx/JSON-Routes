@@ -3,7 +3,8 @@ const config = require('../config');
 const router = express.Router();
 const apiRoute = require('./api/v0');
 const dayJS = require('dayjs');
-const imageObject = require('./models/image.js')
+const imageObject = require('../models/image.js');
+const { response } = require('express');
 
 // **Router**
 router.use((request, response, next) => {
@@ -26,7 +27,15 @@ router.get('/register', (request, response) => {
 router.get('/', function (request, response) {
   response.render('pages/404', { pageTitle: "404 Page" });
 })
+router.get('/images/:id', async (req, res, next) => {
+  try {
+    const image = await imageObject.findOne({ id: req.params.id });
+    res.render('/pages/single-item', { pageTitle: image.title, image, dayJS })
 
+  } catch (err) {
+    return next(err);
+  }
+})
 
 router.use('/api/v0', apiRoute);
 module.exports = router
