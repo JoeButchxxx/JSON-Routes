@@ -30,7 +30,6 @@ router.get('/', function (request, response) {
 router.get('/images/:id', async (req, res, next) => {
   try {
     const image = await imageObject.findOne({ id: req.params.id });
-    console.log(image);
     res.render('pages/single-item', { pageTitle: image.title, image, dayJS })
 
   } catch (err) {
