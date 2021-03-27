@@ -2,19 +2,19 @@
 ## JSON Routes with Heroku and MongoDB Atlas
 
 ### GitHub Repo & Pages
-- GitHub Repo Link 
-- Heroku Link 
+- GitHub Repo Link - https://github.com/JoeButchxxx/cpnt-262-a5
+- Heroku Link - https://cpnt-262-a5-jb.herokuapp.com/ 
+
+### Heroku Tips & Tricks
+#### Heroku End points
+- /images/0-11 
+- /api/v0/gallery 
+- Used router . get to create a single image page when used with /images/0-11.
 
 ### Comments and Take Aways
-This assignment was challenging but also enjoyable. I struggled to grasp the fetch and route, but i re read a bunch of notes and finally got some basic html to show up. A few more hours of debugging and realising i had my path directories a little messed up things start working.
+What A Week it has been. Assignment five personally has been the toughest one so far, it has pretty much put me through everything we have learnt in 262 and some and i love it!! Because i have had such a time getting all this DB atlas stuff to work and generating a single image i have deglected a nav which is my bad.
 
-I have personally noticed growth in myself during 262. I am starting to understand the language of JavaScript, which is also improving my problem solving skills in coding.
-
-Learning about ejs an including html into our project's without really writing any is cool and and i have enjoyed learning about incorpriating frontend into the backend.
-
-ALSO THANKS FOR THE SATURDAY STUDY SESSION. IT HELPED ALOT!!
-
-
+This week you have also taught me more than just back end javascript and i am very thankful for that Tony.
 
 ### Sources & Credit
 
