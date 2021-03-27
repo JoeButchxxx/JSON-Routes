@@ -38,6 +38,10 @@ h1 {
   text-shadow: 2px 3px red;
 }
 
+h2 {
+  color: aliceblue;
+}
+
 h3 {
   font-family: Shippori Mincho;
   font-size: 1.9rem;

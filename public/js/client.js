@@ -5,7 +5,7 @@ fetch(endpoint)
   // ** ERROR HANDLING **
   .then((response) => {
 
-    if (!response.ok) {
+    if (response.ok) {
       throw new Error('Not 200 ok');
     }
     return response.json();
